@@ -44,9 +44,11 @@ def from_webcam():
 
 if __name__ == "__main__":
     root = Tk()
+    root.title("Face Detection")
+    root.geometry("600x300")
     create_button(root, "From file", (100, 100), from_file)
-    create_button(root, "From webcam", (300, 100), from_webcam)
-    create_button(root, "Close", (200, 200), root.destroy)
+    create_button(root, "From webcam", (380, 100), from_webcam)
+    create_button(root, "Close", (240, 200), root.destroy)
     root.mainloop()
 
 
