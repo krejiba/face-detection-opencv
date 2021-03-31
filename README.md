@@ -10,3 +10,6 @@ A window will pop-up and you can choose either to look for a file from your comp
 
 Python 3.7.4  
 OpenCV 4.1.2
+
+## References
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_objdetect/py_face_detection/py_face_detection.html
